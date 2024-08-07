@@ -1,0 +1,51 @@
+	1: reserved word: read
+	1: ID, name= numone
+	1: ;
+	2: reserved word: read
+	2: ID, name= numtwo
+	2: ;
+	3: reserved word: if
+	3: (
+	3: ID, name= numone
+	3: <
+	3: ID, name= numtwo
+	3: )
+	4: {
+	5: reserved word: write
+	5: (
+	5: ID, name= numone
+	5: <
+	5: ID, name= numtwo
+	5: )
+	5: ;
+	6: }
+	7: reserved word: else
+	7: reserved word: if
+	7: (
+	7: ID, name= numone
+	7: >
+	7: ID, name= numtwo
+	7: )
+	8: {
+	9: reserved word: write
+	9: (
+	9: ID, name= numone
+	9: >
+	9: ID, name= numtwo
+	9: )
+	9: ;
+	10: }
+	11: reserved word: else
+	12: {
+	13: reserved word: write
+	13: (
+	13: ID, name= numone
+	13: :=
+	13: ID, name= numtwo
+	13: )
+	13: ;
+	14: }
+	15: reserved word: return
+	15: NUM, val= 0
+	15: ;
+	16: EOF

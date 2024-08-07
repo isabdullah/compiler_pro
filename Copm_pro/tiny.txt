@@ -1,0 +1,15 @@
+read numone ;
+read numtwo ;
+if ( numone < numtwo) 
+{
+    write ( numone < numtwo);
+} 
+else if ( numone > numtwo ) 
+{
+    write ( numone > numtwo ) ;
+} 
+else 
+{
+    write (numone = numtwo);
+}
+return 0;
